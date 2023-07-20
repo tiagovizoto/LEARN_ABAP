@@ -22,6 +22,10 @@ cidade2 = 'Água Ruim'.
 cep2 = '89456-00'.
 endereco2 = 'Rua dos reis, numero zero'.
 
+
+"Contantes, uma variavel que não altera o valor em momento nenhum no programa.
+CONSTANTS chave_de_compra TYPE C LENGTH 5 VALUE 'ER12HJ'.
+
 write: 'Nome: ', nome.
 write: /'Endereço:', endereco.
 write: /'cidade: ', cidade.
@@ -31,3 +35,4 @@ write: /'Nome: ', nome2.
 write: /'Endereço: ', endereco2.
 write: /'cidade: ', cidade2.
 write: /'cep: ', cep2.
+write: /'chave de compra: ', chave_de_compra.
